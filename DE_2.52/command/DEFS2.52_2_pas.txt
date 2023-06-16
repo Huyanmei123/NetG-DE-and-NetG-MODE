@@ -1,0 +1,67 @@
+python utils.py
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.45
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.5
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.55
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.65
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.7
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.75
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.45
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.5
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.55
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.65
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.7
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.75
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.45
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.5
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.55
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.65
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.7
+mpiexec -np 10 python DEFS2_F.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.75
+
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.45
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.5
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.55
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.65
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.7
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 200 0.75
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.45
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.5
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.55
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.65
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.7
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 200 0.75
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.45
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.5
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.55
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.65
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.7
+mpiexec -np 10 python DEFS2_CR.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 200 0.75
+
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 50
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 100
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 150
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 250
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.75.txt 0.75 0.3 0.3 0.4 100 Shipp 3 300
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 50
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 100
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 150
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 250
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Shipp 2 300
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 50
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 100
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 150
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 250
+mpiexec -np 10 python DEFS2_N.py ../data/shipp_trainData.csv ../data/shipp_testData.csv None None 0.6 0.0 0.0 0.0 100 Shipp 1 300
+
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/Shipp-norm-com0.65.txt 0.65 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/Shipp-norm-com0.70.txt 0.7 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/shipp-norm-com0.80.txt 0.8 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/Shipp-norm-com0.85.txt 0.85 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/Shipp-norm-com0.90.txt 0.9 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt ../data/Shipp-norm-com0.95.txt 0.95 0.3 0.3 0.4 100 Shipp 3 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.65 0.5 0.5 0.0 100 Shipp 2 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.7 0.5 0.5 0.0 100 Shipp 2 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.8 0.5 0.5 0.0 100 Shipp 2 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.85 0.5 0.5 0.0 100 Shipp 2 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.9 0.5 0.5 0.0 100 Shipp 2 200
+mpiexec -np 10 python DEFS2_Delta.py ../data/shipp_trainData.csv ../data/shipp_testData.csv ../data/shipp-2002-v1-norm-pearson06.txt None 0.95 0.5 0.5 0.0 100 Shipp 2 200

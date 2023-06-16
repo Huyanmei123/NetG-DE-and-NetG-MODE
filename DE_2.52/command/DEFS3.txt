@@ -1,0 +1,2 @@
+python utils.py
+mpiexec -np 10 python DEFS.py ./data/Colon_trainData.csv ./data/Colon_testData.csv ./data/Colon_s3-norm-pearson06.txt None 0.75 0.5 0.5 0.0 100 Colon 2 200

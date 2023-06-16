@@ -1,0 +1,20 @@
+python utils.py
+mpiexec -np 10 python MODE2.py ../data/pomeroy_trainData.csv ../data/pomeroy_testData.csv ../data/pomeroy-2002-v1-norm-pearson06.txt ../data/pomeroy-norm-com0.80.txt 0.8 0.3 0.3 0.4 100 Pomeroy 3 200
+mpiexec -np 10 python MODE2.py ../data/pomeroy_trainData.csv ../data/pomeroy_testData.csv ../data/pomeroy-2002-v1-norm-pearson06.txt None 0.8 0.5 0.5 0.0 100 Pomeroy 2 200
+mpiexec -np 10 python MODE2.py ../data/pomeroy_trainData.csv ../data/pomeroy_testData.csv None None 0.6 0.5 0.5 0.0 100 Pomeroy 1 200
+mpiexec -np 10 python MODE2.py ../data/nutt_trainData.csv ../data/nutt_testData.csv ../data/nutt-2003-v2-norm-pearson06.txt ../data/nutt-norm-com0.95.txt 0.95 0.3 0.3 0.4 100 Nutt 3 200
+mpiexec -np 10 python MODE2.py ../data/nutt_trainData.csv ../data/nutt_testData.csv ../data/nutt-2003-v2-norm-pearson06.txt None 0.95 0.5 0.5 0.0 100 Nutt 2 200
+mpiexec -np 10 python MODE2.py ../data/nutt_trainData.csv ../data/nutt_testData.csv None None 0.6 0.5 0.5 0.0 100 Nutt 1 200
+mpiexec -np 10 python MODE2.py ../data/armstrong_trainData.csv ../data/armstrong_testData.csv ../data/armstrong-2002-v1-norm-pearson06.txt ../data/armstrong-norm-com0.80.txt 0.8 0.3 0.3 0.4 100 Armstrong 3 200
+mpiexec -np 10 python MODE2.py ../data/armstrong_trainData.csv ../data/armstrong_testData.csv ../data/armstrong-2002-v1-norm-pearson06.txt None 0.8 0.5 0.5 0.0 100 Armstrong 2 200
+mpiexec -np 10 python MODE2.py ../data/armstrong_trainData.csv ../data/armstrong_testData.csv None None 0.6 0.0 0.0 0.0 100 Armstrong 1 200
+mpiexec -np 10 python MODE2.py ../data/alizadeh_trainData.csv ../data/alizadeh_testData.csv ../data/alizadeh-2000-v1-norm-pearson06.txt ../data/alizadeh-norm-com0.80.txt 0.8 0.3 0.3 0.4 100 Alizadeh 3 200
+mpiexec -np 10 python MODE2.py ../data/alizadeh_trainData.csv ../data/alizadeh_testData.csv ../data/alizadeh-2000-v1-norm-pearson06.txt None 0.8 0.5 0.5 0.0 100 Alizadeh 2 200
+mpiexec -np 10 python MODE2.py ../data/alizadeh_trainData.csv ../data/alizadeh_testData.csv None None 0.8 0.0 0.0 0.0 100 Alizadeh 1 200
+mpiexec -np 10 python MODE2.py ../data/gordon_trainData.csv ../data/gordon_testData.csv ../data/gordon-2002-norm-pearson06.txt ../data/gordon-norm-com0.80.txt 0.8 0.3 0.3 0.4 100 Gordon 3 200
+mpiexec -np 10 python MODE2.py ../data/gordon_trainData.csv ../data/gordon_testData.csv ../data/gordon-2002-norm-pearson06.txt None 0.8 0.5 0.5 0.0 100 Gordon 2 200
+mpiexec -np 10 python MODE2.py ../data/gordon_trainData.csv ../data/gordon_testData.csv None None 0.6 0.5 0.5 0.0 100 Gordon 1 200
+mpiexec -np 10 python MODE2.py ../data/Leukemia_trainData.csv ../data/Leukemia_testData.csv ../data/Leukemia_s3-norm-pearson06.txt ../data/Leukemia_s3-norm-com0.70.txt 0.7 0.3 0.3 0.4 100 Leukemia 3 200
+mpiexec -np 10 python MODE2.py ../data/Leukemia_trainData.csv ../data/Leukemia_testData.csv ../data/Leukemia_s3-norm-pearson06.txt None 0.7 0.5 0.5 0.0 100 Leukemia 2 200
+mpiexec -np 10 python MODE2.py ../data/Leukemia_trainData.csv ../data/Leukemia_testData.csv None None 0.6 0.5 0.5 0.0 100 Leukemia 1 200
+
